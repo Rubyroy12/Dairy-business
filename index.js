@@ -10,5 +10,5 @@
             } 
 
             document.getElementById("par").innerHTML = k; 
-            document.getElementById("po").innerHTML = "Output"; 
+            // document.getElementById("po").innerHTML = "Output"; 
         }
