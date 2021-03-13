@@ -11,3 +11,16 @@ body{
  margin-right: 100px;
 
 }
+nav{
+    border: 2px solid rgb(234, 235, 227);
+    color: aqua;
+    box-shadow: 2px,3px 3px 2px rgb(212, 4, 4);
+   
+   }
+   ul>li{
+    display: inline-block;
+    color: aqua;
+    justify-content:;
+    padding: 20px;
+           
+   }
