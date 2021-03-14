@@ -6,22 +6,31 @@ body{
  background-image: url(https://urbankenyans.com/wp-content/uploads/2019/07/Dairy-farming-in-Kenya.jpg);
  background-repeat: no-repeat;
  background-size: cover;
- margin-top: 20px;
+ /* margin-top: 20px;
  margin-left: 100px;
- margin-right: 100px;
+ margin-right: 100px; */
  
 
 }
-nav{
-    border: 2px solid rgb(234, 235, 227);
-    color: aqua;
-    box-shadow: 2px,3px 3px 2px rgb(212, 4, 4);
+h1{
+    color: azure;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+h1:hover{
+    color:chartreuse;
+    text-decoration: underline white;
+
+}
+#main{
+    background-image: linear-gradient(rgb(1, 105, 1),white);
+    display: flex;
+    height: 200px;
+    margin-left: 200px;
+    margin-right: 400px;
+    border: 2px solid white;
+    border-style:ridge;
+    box-shadow:5px 5px 0px 0px grey;
    
-   }
-   ul>li{
-    display: inline-block;
-    color: aqua;
-    justify-content:;
-    padding: 20px;
-           
-   }
+}
