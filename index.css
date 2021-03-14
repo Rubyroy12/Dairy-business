@@ -44,3 +44,12 @@ h1:hover{
     text-decoration: none;
     transition: width 2s;
 }
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+#reports:hover{
+    width: 20%;
+    border: 1px solid white;
+}
