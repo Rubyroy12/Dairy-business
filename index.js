@@ -16,4 +16,6 @@ var sheds = [{
 }];
 
 
- 
+for(var i =0; i<sheds.length; i++){
+  document.write("Your daily production in shed " + sheds[i].name + "is "+sheds[i].litres + "<br>")
+}
