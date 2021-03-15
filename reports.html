@@ -11,24 +11,32 @@
 </head>
 
 <body>
+    <p id="homepage"><a href="index.html">HOME</a></p>
     <h2>Production reports</h2>
     <div id="form">
-        <input type="number" name="sheds" /><br>
-        <input type="number" name="sheds" /><br>
-        <input type="number" name="sheds" /><br>
-        <input type="number" name="sheds" /><br>
+        <input type="number" name="sheds" placeholder="Enter productin for shed A" /><br>
+        <input type="number" name="sheds" placeholder="Enter productin for shed B" /><br>
+        <input type="number" name="sheds" placeholder="Enter productin for shed C" /><br>
+        <input type="number" name="sheds" placeholder="Enter productin for shed D" /><br>
 
-        <button type="button" name="button" onclick="data()">VIEW</button>
+
     </div>
-    <p id="output"> </p>
-    <div id="pro">
-        <button type="button" onclick="totalproduction()">view total production</button><br>
-        <p id="production"></p>
+    <div id=buttons>
+        <div id="views">
+            <button type="button" id="button" onclick="data()">VIEW</button>
+            <p id="output"> </p>
+        </div>
+       
+        <div id="total">
+            <button type="button" onclick="totalproduction()">view total production</button><br>
+            <p id="production"></p>
+        </div>
+        <div id="incomes">
+            <button type="button" onclick="income()">daily_income</button><br>
+            <p id="income"></p>
+        </div>
     </div>
-    <div>
-        <button type="button" onclick="income()">daily_income</button><br>
-        <p id="income"></p>
-    </div>
+
 
 
 
