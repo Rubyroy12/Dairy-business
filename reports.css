@@ -72,3 +72,24 @@ input{
       overflow: auto;
       color: white;
   }
+  #views{
+    display: inline-block;
+    flex-direction: column;
+}
+#output{
+    display:flex  ;
+    flex-direction: column;
+
+}
+#total{
+
+  display: flex;
+  float: right;
+  margin-top: 0%;
+}
+
+#incomes{
+  display: flex;
+  float: right;
+  margin-top: 0%;
+}
