@@ -1,22 +1,3 @@
-var sheds = [{
-    name: "A",
-    litres: 510,
-  },
-  {
-    name: "B",
-    litres: 308,
-  },
-  {
-    name: "C",
-    litres: 486,
-  },
-  {
-    name: "D",
-    litres: 572,
-  }
-];
-
-
 
 var k   ; 
 function data() { 
@@ -28,7 +9,7 @@ function data() {
     } 
     var sheds =["A", "B", "C", "D"];
 for (var n = 0; n < sheds.length; n++) {
-  alert("Your daily production in shed " + sheds[n] + " is  " + k);
+  document.write("Your daily production in shed " + sheds[n] + " is  " + input[i] + "<br>");
 }
     
     document.getElementById("output").innerHTML = k; 
