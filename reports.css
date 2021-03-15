@@ -6,3 +6,44 @@
     background-color:darkslategray;
 
 }
+#homepage{
+    color:rgb(245, 248, 242);
+    display: flex;
+    background-color: rgb(8, 75, 2);
+    flex-direction: column;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    transition: width 2s;
+    border-bottom: 1px solid white;
+    
+}
+a{
+    color:white;
+}
+a:hover{
+    text-decoration: overline;
+}
+h2{
+    display: flex;
+    justify-content:baseline;
+    flex-direction: column;
+    margin: 30px;
+    margin-left: 130px;
+    color: white;
+
+}
+
+
+#form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column ;
+    margin-left:50px;
+    background-color: rgb(10, 80, 1);
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+    width: 40%;
+
+}
