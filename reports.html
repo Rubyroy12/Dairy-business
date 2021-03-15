@@ -12,7 +12,7 @@
 
 <body>
     <h2>Production reports</h2>
-    <div>
+    <div id="form">
         <input type="number" name="sheds" /><br>
         <input type="number" name="sheds" /><br>
         <input type="number" name="sheds" /><br>
@@ -21,11 +21,15 @@
         <button type="button" name="button" onclick="data()">VIEW</button>
     </div>
     <p id="output"> </p>
-    
-    <button type="button" onclick="totalproduction()">view total production</button><br>
-    <p id="production"></p>
-    <button type="button" onclick="income()">daily_income</button><br>
-    <p id="income"></p>
+    <div id="pro">
+        <button type="button" onclick="totalproduction()">view total production</button><br>
+        <p id="production"></p>
+    </div>
+    <div>
+        <button type="button" onclick="income()">daily_income</button><br>
+        <p id="income"></p>
+    </div>
+
 
 
 </body>

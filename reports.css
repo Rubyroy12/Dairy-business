@@ -1,5 +1,37 @@
 *{
-    background-image: linear-gradient(darkgrey,white);
+    background-image: url("../Dairy-business/images/livingadream.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    margin: auto;
+    background-color:darkslategray;
+
 }
+h2{
+    display: flex;
+    justify-content:baseline;
+    flex-direction: column;
+    margin: 30px;
+
+}
+
+#form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column ;
+    margin-left:50px;
+    background-color: rgb(10, 80, 1);
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+
+}
+input{
+    width: 90%;
+    padding: 5px 20px;
+    margin: 50px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
